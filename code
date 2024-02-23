@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Łódzki Teatr Tańca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        #foundation-logo {
+            width: 150px;
+            height: auto;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;.background-image
+        
+            /* Dodaj styl dla sekcji z tłem sali teatralnej */
+        }
+
+        .content {
+            /* Dodaj styl dla sekcji z treściami strony */
+            padding: 20px;
+        }
+
+        .last-premiere {
+            /* Dodaj styl dla sekcji z ostatnią premierą */
+            margin-top: 20px;
+        }
+
+        .premiere-image img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .premiere-description {
+            margin-top: 10px;
+        }
+
+        .premiere-footer {
+            margin-top: 10px;
+        }
+
+        .path-to-love {
+            /* Dodaj styl dla sekcji "Drogi do miłości, czyli kobiety twojego życia" */
+            margin-top: 20px;
+        }
+
+        .about-us {
+            /* Dodaj styl dla sekcji "O nas" */
+            margin-top: 20px;
+        }
+
+        .support-culture {
+            /* Dodaj styl dla sekcji "Wspieraj kulturę" */
+            margin-top: 20px;
+        }
+
+        footer {
+            /* Dodaj styl dla stopki */
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Dodaj logo fundacji w nagłówku -->
+        <img id="foundation-logo" src="sciezka/do/logo_fundacji.png" alt="Logo Fundacji Łódzkiego Teatru Tańca">
+    </header>
+
+    <main>
+        <section class="background-image">
+            <!-- Tutaj możesz dodać dodatkowe treści dotyczące sali teatralnej -->
+        </section>
+        
+        <section class="content">
+            <!-- Tutaj możesz umieścić treść strony, informacje o fundacji, repertuar itp. -->
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:ludwik@hotmail.com">ludwik@hotmail.com</a></p>
+            <p>Numer telefonu: +48 602612689</p>
+            <p>KRS: 0000990064</p> <!-- Dodaj numer KRS -->
+        </section>
+
+        <section class="last-premiere">
+            <h2>Nasza ostatnia premiera</h2>
+            <p>Tytuł: Drogi Do Miłości</p>
+            <p>Data premiery: 09/12/2023</p>
+
+            <!-- Dodaj miejsce na obraz -->
+            <div class="premiere-image">
+                <img src="sciezka/do/obrazu_premiery.jpg" alt="Miejsce premiery">
+            </div>
+
+            <!-- Dodaj opis spektaklu -->
+            <div class="premiere-description">
+                <p><strong>Opis</strong></p>
+                <p>Spektakl opowiada historię arystokratycznej rodziny osadzonej w osiemnastowiecznych realiach życia wyższych sfer. Libretto premiery opowiada o skomplikowanych relacjach młodego mężczyzny z najważniejszymi kobietami, które spotyka na swojej życiowej drodze. Zależy nam także na ukazaniu trudnych relacji między kobietami, które kochają i próbują uszczęśliwić tego samego mężczyznę różnego rodzaju miłością. Miłość może zatem być przyjacielska, matczyna, romantyczna, namiętna, szczęśliwa lub zgubna, a więc również pełna sprzeczności. Temat podejmowany w spektaklu - czyli miłość - stanowi ważny aspekt egzystencjalny każdego człowieka, który bezustannie poszukuje, dąży do ideału i spełnienia podczas swojej życiowej drogi.</p>
+
+                <p><strong>Refleksje</strong></p>
+                <p>Muzyka J. S. Bacha przyczyniła się do ukazania efektu kontrastu między osobowościami postaci, walki dobra ze złem i ich wewnętrznymi wyborami, przed jakimi stają nasi bohaterowie chcący spełnić swoje pragnienia. Muzyka współczesna natomiast pozwoliła nam przez swoją ekspresję ukazać tępo życia i brak czasu na głębszą refleksję nad sensem najważniejszych wyborów.</p>
+
+                <p><strong>Polska Scena Tańca III Edycja</strong></p>
+                <p>Zamysłem Choreograficznym jest pokazanie możliwości technicznych, tanecznych i aktorskich tancerzy. Choreografia oparta jest na technice tańca klasycznego i neoklasycznego. Technika tańca klasycznego wspaniale nadaje się do ukazywania miłości i nienawiści jako przeciwstawnych i ekstremalnych uczuć, ponieważ jest w stanie poprzez ruch pokazać wiele aspektów emocjonalnych człowieka/tancerza. Natomiast technika tańca neoklasycznego oraz współczesnego przyczyniła się do ukazania aspektów subtelnych, ulotnych i ezoterycznych.</p>
+                <p>Zależy nam na promowaniu polskich artystów i polskiej sztuki baletowej w kraju i za jej granicami.</p>
+            </div>
+
+            <!-- Dodaj stopkę pod opisem spektaklu -->
+            <footer class="premiere-footer">
+                <p>Projekt zrealizowano w ramach stypendium twórczego Ministra Kultury i Dziedzictwa Narodowego</p>
+                <img src="sciezka/do/logo_min_kultury_i_dziedzictwa_narodowego.png" alt="Logo Ministerstwa Kultury i Dziedzictwa Narodowego">
+            </footer>
+            
+            <!-- Dodaj nową sekcję "Drogi do miłości, czyli kobiety twojego życia" -->
+            <section class="path-to-love">
+                <h3>Drogi do miłości, czyli kobiety twojego życia</h3>
+                <p>Muzyka</p>
+                <p>
+                    Dzieło choreograficzne powstało do muzyki J. S. Bacha, Wolframa Huschke, oraz Marais Sonnerie de Sainte Genevieve du Mont de Paris i inne.
+                    Wybór muzyki podyktowany jest zarówno emocjonalnym charakterem w/w utworów, jak i ich głęboką wartością artystyczną.
+                </p>
+                
+                <p>Obsada</p>
+                <p>
+                    Czworo zawodowych artystów baletu z dużym dorobkiem artystycznym i doświadczeniem w kreowaniu wielkich partii solowych.
+                    W roli Matki Hrabiny Wiktorii wcieli się Kinga Gintowt, w rolę Narzeczonej Księżniczki Amelii - Laura Łapowuchow,
+                    w roli Siostry Matyldy - Monika Szymańska. Rolę Oficera zatańczy Marek Ludwisiak.
+                </p>
+            </section>
+        </section>
+
+        <section class="about-us">
+            <h2>O nas</h2>
+            <p>Łódzki Teatr Tańca-Lodz Dance Theatre. Teatr niezależny którego celem jest tworzenie i wystawianie spektakli baletowych.Koncentrujemy sie na tańcu klasycznym,neoklasycznym i balecie współczesnym. Współpracujemy  z zawodowymi tancerzami klasycznymi oraz kształcimy nowych młodych  artystów  sceny tańca. Twórcą i dyrektorem jest Marek Ludwisiak  wybitny polski tancerz,choreograf i pedagog.Misją grupy jest propagowanie sztuki baletowej przez uczestnictwo w festiwalach i pokazach artystycznych teatru tańca  na najwyższym światowym poziomie.</p>
+            <h3>Prezes</h3>
+            <p>Marek Ludwisiak. Promotor sztuki tańca w szczególności baletu klasycznego i neoklasycznego na terenie Polski i za granicą.Pasjonat i filantrop łączy zamiast dzielić  różne środowiska artystyczne .Jego życiową misją jest stworzenie zawodowego zespołu baletowego na najwyższym  światowym poziomie ze stałym zatrudnieniem etatowym artystów baletu na terenie Łodzi. Do czego konsekwentnie zmierza!</p>
+            <h3>Cele Fundacji</h3>
+            <p>POLSKI
+                Celem głównym Fundacji jest wspieranie realizacji produkcji teatralnych oraz edukacji artystycznej.Wspieranie amatorskiego i profesjonalnego rozwoju młodych polskich choreografów i tancerzy poprzez stworzenie miejsca nie tylko dla regularnych prezentacji, ale także i tworzenie tańca oraz pokrewnych form tańca i sztuki;
+                Animowanie życia tanecznego oraz kulturalnego w regionie, także poprzez realizację wspólnych projektów z innymi jednostkami kultury, nauki i sztuki.
+            </p>
+            <P>ENGLISH
+                The main purpose of the Foundation is to support the realization of theatrical productions and artistic education, amateur and professional development of young Polish choreographers and dancers by creating a place not only for regular presentations, but also for the creation of dance and related forms of dance and art;
+                Animating dance and cultural life in the region, also through the realisation of joint projects with other representatives of culture, science and art.
+            </P>
+        </section>
+
+        <section class="support-culture">
+            <h2>Wspieraj kulturę</h2>
+            <p>Tutaj możesz zamieścić informacje dotyczące możliwości wsparcia kultury, donacji, wolontariatu lub innych form wspierania działalności teatru. Podziel się z użytkownikami, jak mogą przyczynić się do rozwoju sztuki baletowej w Łodzi.</p>
+            <p>Wesprzyj naszą zrzutkę: <a href="https://zrzutka.pl/lodzkiteatrtanca" target="_blank">zrzutka.pl/lodzkiteatrtanca</a></p>
+        </section>
+
+        <footer>
+            <!-- Dodaj logo Ministerstwa Kultury i Dziedzictwa Narodowego w stopce -->
+            <img src="sciezka/do/logo_min_kultury_i_dziedzictwa_narodowego.png" alt="Logo Ministerstwa Kultury i Dziedzictwa Narodowego">
+        </footer>
+    </main>
+
+</body>
+</html>
